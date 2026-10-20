@@ -14,6 +14,12 @@ fireballs |>
 fireballs |>
   mutate(Year = year(Date2)) |>
   count(Year)
+# 2009     2
+#2  2010     1
+#3  2012    20
+#4  2013    20
+#5  2014    33
+#6  2015    16
 fireballs |> 
   mutate(Month = month(Date2)) |>
   count(Month)
